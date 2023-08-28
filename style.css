@@ -4,8 +4,11 @@ body{
 h1{
     text-align: center;
     color: azure;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p{
     color: azure;
 }
 h2{color: azure;}
+
