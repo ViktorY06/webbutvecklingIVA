@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <title>Formular</title>
+        <meta charset="utf-8">
+        <link href="Formular.css" rel="stylesheet">
+        <meta name=”viewport” content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <section>
+            <h1>Pizza Place</h1>
+            <form action="tack.html" method="get">
+                <label for="fnamn">Förnamn</label>
+                <input type="text" id="fnamn" name="fnamn">
+                <br>
+                <br>
+                <label for="enamn">Efternamn</label>
+                <input type="text" id="enamn" name="enamn">
+                <br>
+                <br>
+                <p>Favoritmat:</p>
+                <label for="tacos">Tacos</label>
+                <input type="checkbox"  class="knapp" id="tacos" name="tacos">
+                <br>
+                <label for="pizza">Pizza</label>
+                <input type="checkbox" class="knapp" id="pizza" name="pizza">
+                <br>
+                <label for="hamburgare">Hamburgare</label>
+                <input type="checkbox" class="knapp" id="hamburgare" name="hamburgare">
+                <br>
+                <label for="kebab">Kebab</label>
+                <input type="checkbox" class="knapp" id="kebab" name="kebab">
+                <br>
+                <label for="pasta">Pasta</label>
+                <input type="checkbox" class="knapp" id="pasta" name="pasta">
+                <br>
+                <br>
+                <p>Vill du få en rabattkupong på 50kr?</p>
+                <label for="ja">Ja</label>
+                <input type="radio" class="knapp" id="ja"  name="rabattkupong" value="ja">
+                <br>
+                <label for="nej">Nej</label>
+                <input type="radio" class="knapp" id="nej" name="rabattkupong" value="nej">
+                <br>
+                <br>
+                <label for="skicka"></label>
+                <input type="submit" id="skicka" name="skicka">
+            </form>
+        </section>
+    </body>
+</html>
