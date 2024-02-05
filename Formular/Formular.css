@@ -1,9 +1,9 @@
 input, p, label{
-    font-size:6rem;
+    font-size:3rem;
 }
 
 h1{
-    font-size: 12rem;
+    font-size: 6rem;
 }
 
 p{
@@ -11,8 +11,8 @@ p{
 }
 
 .knapp{
-    width:6rem;
-    height:6rem;
+    width:3rem;
+    height:3rem;
 }
 
 body{
